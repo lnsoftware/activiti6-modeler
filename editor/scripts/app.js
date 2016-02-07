@@ -183,10 +183,10 @@ activitiModeler
             })
         }
 
-        $routeProvider.otherwise({
-            templateUrl: appResourceRoot + 'views/login.html',
-            controller: 'LoginController'
-        });
+        //$routeProvider.otherwise({
+        //    templateUrl: appResourceRoot + 'views/login.html',
+        //    controller: 'LoginController'
+        //});
 
         // Initialize angular-translate
         $translateProvider.useStaticFilesLoader({
